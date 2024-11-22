@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "HARD_ROCK";
+  src: url(../fonts/HARD_ROCK.ttf);
+}
+@font-face {
+  font-family: "rocknroll_typo_crazy";
+  src: url(../fonts/rocknroll_typo_crazy.ttf);
+}
+@font-face {
+  font-family: "TheDark";
+  src: url(../fonts/TheDark.ttf);
+}
+body {
+  background: black;
+}
+body header .navbar {
+  background: #212529 !important;
+  font-family: "TheDark";
+}
+body header .navbar .nav-link {
+  color: red;
+  font-size: 1.3rem;
+}
+body header .navbar a:active {
+  color: white;
+}
+body main .h2 {
+  font-family: "TheDark";
+}
+body main section .members {
+  margin: 0 10%;
+}
+body main section .members .card .card-body a {
+  font-family: "rocknroll_typo_crazy";
+  font-size: 1.5rem;
+}
+body main section input::-moz-placeholder, body main section textarea::-moz-placeholder {
+  font-family: "HARD_ROCK";
+  color: red;
+  font-size: 1.5rem;
+}
+body main section input::placeholder, body main section textarea::placeholder {
+  font-family: "HARD_ROCK";
+  color: red;
+  font-size: 1.5rem;
+}
+body main section .btn {
+  font-family: "rocknroll_typo_crazy";
+  font-size: 1.5rem;
+}/*# sourceMappingURL=styles.css.map */

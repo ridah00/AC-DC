@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'HARD_ROCK';
+    src: url(../fonts/HARD_ROCK.ttf);
+}
+
+@font-face {
+    font-family: 'rocknroll_typo_crazy';
+    src: url(../fonts/rocknroll_typo_crazy.ttf);
+}
+
+@font-face {
+    font-family: 'TheDark';
+    src: url(../fonts/TheDark.ttf);
+}
+
+body {
+    background: black;
+
+    header {
+            
+        .navbar {
+            
+            background: #212529 !important;
+            font-family: 'TheDark';
+
+            .nav-link {
+                color: red;
+                font-size: 1.3rem;
+            }
+
+            a:active {
+                color: white;
+            }
+
+        }
+    }
+
+    .carousel {
+        .carousel-inner {
+            
+        }
+    }
+
+    main {
+        
+
+            .h2 {
+                font-family: 'TheDark';
+            }
+            section {
+                
+                .members {
+                    margin: 0 10%;
+                    .card {
+                        .card-body {
+                            a {
+                                font-family: 'rocknroll_typo_crazy';
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+                input::placeholder, textarea::placeholder {
+                    font-family: 'HARD_ROCK';
+                    color: red;
+                    font-size: 1.5rem;
+                }
+                .btn {
+                    font-family: 'rocknroll_typo_crazy';
+                    font-size: 1.5rem;
+                }
+            }     
+    }
+}

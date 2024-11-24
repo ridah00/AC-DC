@@ -14,8 +14,12 @@
 }
 
 body {
-    background: black;
-
+        // background dégradé
+        background: repeating-linear-gradient(120deg,
+                black,
+                black 800px,
+                red 800px,
+                red 1600px);
     header {
             
         .navbar {
@@ -48,9 +52,14 @@ body {
                 font-family: 'TheDark';
             }
             section {
-                
-                .members {
-                    margin: 0 10%;
+                .member{
+                    img {
+                        width: 250px;
+                        height: 270px;
+                    }
+                    
+                }
+                .titles {
                     .card {
                         .card-body {
                             a {

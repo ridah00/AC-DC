@@ -11,7 +11,7 @@
   src: url(../fonts/TheDark.ttf);
 }
 body {
-  background: black;
+  background: repeating-linear-gradient(120deg, black, black 800px, red 800px, red 1600px);
 }
 body header .navbar {
   background: #212529 !important;
@@ -27,10 +27,11 @@ body header .navbar a:active {
 body main .h2 {
   font-family: "TheDark";
 }
-body main section .members {
-  margin: 0 10%;
+body main section .member img {
+  width: 250px;
+  height: 270px;
 }
-body main section .members .card .card-body a {
+body main section .titles .card .card-body a {
   font-family: "rocknroll_typo_crazy";
   font-size: 1.5rem;
 }
